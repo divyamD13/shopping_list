@@ -35,8 +35,8 @@ class _NewItemState extends State<NewItem> {
         padding: const EdgeInsets.all(12),
         child: Form(
             key: _formKey,
-            child: Expanded(
-              child: Column(
+            child: 
+               Column(
                 children: [
                   TextFormField(
                     maxLength: 50,
@@ -83,10 +83,11 @@ class _NewItemState extends State<NewItem> {
                       ),
                       Expanded(
                         child: DropdownButtonFormField(
+                          value: _enteredCategory,
                             items: [
                               for (final category in categories.entries)
                                 DropdownMenuItem(
-                                  value: _enteredCategory,
+                                  value: category.value,
                                   child: Row(
                                     children: [
                                       Container(
@@ -109,7 +110,7 @@ class _NewItemState extends State<NewItem> {
                       )
                     ],
                   ),
-                  const SizedBox(height: 12),
+                  // const SizedBox(height: 12),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
@@ -127,7 +128,7 @@ class _NewItemState extends State<NewItem> {
                   ),
                 ],
               ),
-            )),
+            ),
       ),
     );
   }

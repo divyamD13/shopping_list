@@ -1,0 +1,2 @@
+C:/Flutter/flutter_projects/shopping_list_app/android/app/.cxx/RelWithDebInfo/4r6h6w4x/x86/CMakeFiles/edit_cache.dir
+C:/Flutter/flutter_projects/shopping_list_app/android/app/.cxx/RelWithDebInfo/4r6h6w4x/x86/CMakeFiles/rebuild_cache.dir

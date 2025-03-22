@@ -1,0 +1,1 @@
+C:\Flutter\flutter_projects\shopping_list_app\build\app\intermediates\cxx\RelWithDebInfo\2a3n3y2y\obj\arm64-v8a

@@ -1,0 +1,1 @@
+C:\Flutter\flutter_projects\shopping_list_app\build\app\intermediates\cxx\Debug\5v13a5a5\obj\arm64-v8a
